@@ -1,0 +1,113 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<style>
+    body {
+        background: linear-gradient(135deg, #667eea, #764ba2);
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        margin: 0;
+        padding: 0;
+    }
+
+    .overlay-container {
+        background: rgba(0, 0, 0, 0.6);
+        border-radius: 15px;
+        padding: 40px 30px;
+        max-width: 900px;
+        width: 90%;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+    }
+
+    h1.display-3 {
+        font-weight: 900;
+        letter-spacing: 2px;
+        text-shadow: 1px 1px 8px rgba(0,0,0,0.4);
+    }
+
+    p.lead {
+        font-size: 1.25rem;
+        margin-bottom: 40px;
+        text-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+    }
+
+    .card {
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        color: white;
+    }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 25px rgba(255, 255, 255, 0.2);
+        }
+
+    .card-title {
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+
+    .card-text {
+        font-size: 1rem;
+        line-height: 1.4;
+        color: #e0e0e0;
+    }
+
+    hr.my-5 {
+        border-color: rgba(255,255,255,0.3);
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    a {
+        color: #a1c4fd;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+    .text-muted {
+        color: #cbd5e1 !important;
+    }
+</style>
+
+<div class="overlay-container text-center">
+    <h1 class="display-3 fw-bold text-primary mb-4">Welcome to EventEase</h1>
+    <p class="lead mb-4">Your one-stop solution for booking venues and managing events with ease.</p>
+
+    <hr class="my-5" />
+
+    <div class="row text-center">
+        <div class="col-md-4 mb-4 mb-md-0">
+            <div class="card shadow-sm border-0 p-4">
+                <h5 class="card-title">Easy Booking</h5>
+                <p class="card-text">Find and book your perfect venue in just a few clicks.</p>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4 mb-md-0">
+            <div class="card shadow-sm border-0 p-4">
+                <h5 class="card-title">Manage Your Events</h5>
+                <p class="card-text">Stay on top of your bookings and schedules effortlessly.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card shadow-sm border-0 p-4">
+                <h5 class="card-title">Cloud Powered</h5>
+                <p class="card-text">Secure, fast, and reliable service hosted on Microsoft Azure.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-5">
+        <p class="text-muted">Learn more about <a href="https://learn.microsoft.com/aspnet/core" target="_blank" rel="noopener noreferrer">building web apps with ASP.NET Core</a>.</p>
+    </div>
+</div>

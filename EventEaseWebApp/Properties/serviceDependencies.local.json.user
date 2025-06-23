@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "compute.appService1": {
+      "restored": true,
+      "restoreTime": "2025-05-13T16:34:00.097172Z"
+    }
+  },
+  "parameters": {
+    "compute.appService1.subscriptionId": {
+      "Name": "compute.appService1.subscriptionId",
+      "Type": "subscription",
+      "Value": "5933e59c-f7ad-4930-8b6b-4a42b9639975"
+    },
+    "compute.appService1.resourceGroupName": {
+      "Name": "compute.appService1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "Riba"
+    }
+  }
+}
